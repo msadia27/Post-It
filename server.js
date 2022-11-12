@@ -11,10 +11,9 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Use apiRoutes
-app.use("/api", apiRoutes);
+require("./routes/apiRoutes")(app);
 app.use("/", htmlRoutes);
 
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
 });
-
