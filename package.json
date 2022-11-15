@@ -1,27 +1,15 @@
 {
-  "name": "post-it",
+  "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/msadia27/Post-It.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/msadia27/Post-It/issues"
-  },
-  "homepage": "https://github.com/msadia27/Post-It#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "node": "^19.0.1"
-  },
-  "devDependencies": {
-    "jest": "^29.3.1"
+    "express": "^4.16.4"
   }
 }
